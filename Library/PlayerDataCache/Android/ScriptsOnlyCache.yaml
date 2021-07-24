@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Collision
     - FollowPlayer
     - GameManager
+    - GameOverScreen
     - MainMenu
     - PauseMenue
     - Score
@@ -82,6 +83,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9618}
     - Class: 114
+      Script: {instanceID: 10048}
+    - Class: 114
       Script: {instanceID: 10124}
     - Class: 114
       Script: {instanceID: 10458}
@@ -99,6 +102,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11096}
     - Class: 114
       Script: {instanceID: 11160}
+    - Class: 114
+      Script: {instanceID: 14186}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -159,7 +164,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9582}
     - Class: 114
-      Script: {instanceID: 10034}
+      Script: {instanceID: 10032}
     - Class: 114
       Script: {instanceID: 10514}
     - Class: 114
@@ -711,6 +716,12 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
+      Hash: e813c40504fa91d2a2c6050123a45c27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameOverScreen
+  - hash:
+      serializedVersion: 2
       Hash: 1f04408f55440e55eab41c637342eec5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -843,7 +854,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: d2e69458a55cb996ffb415ed6c1b3456
+      Hash: 717c651e16d4b8450cf135419683d344
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Score
@@ -915,7 +926,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 3711af16faa62286c03daca986f00600
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Collision
@@ -935,4 +946,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/start.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/TANMAY/space block1/ra/TEST.apk
+  playerPath: C:/Users/TANMAY/space block1/SpaceBlock/TEST.apk

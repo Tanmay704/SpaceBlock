@@ -1,0 +1,4 @@
+#Sat Jul 24 09:43:35 IST 2021
+base.0=C\:\\Users\\TANMAY\\space block1\\SpaceBlock\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

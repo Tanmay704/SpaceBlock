@@ -12,27 +12,28 @@ public class mainaero : MonoBehaviour
     void FixedUpdate()
     {
         //add forward force
-        Rigidbody rb = GetComponent<Rigidbody>();
+    
+            Rigidbody rb = GetComponent<Rigidbody>();
 
-        rb.AddForce(0, 0, forwardForce * Time.deltaTime);
-     
-        transform.Translate(sidewaysForce*Input.GetAxis("Horizontal")*Time.deltaTime,0f,0f);
-      
+            rb.AddForce(0, 0, forwardForce * Time.deltaTime);
+
+            transform.Translate(sidewaysForce * Input.GetAxis("Horizontal") * Time.deltaTime, 0f, 0f);
 
 
-         if (Input.touchCount > 0)
-          {
-              Touch touch = Input.GetTouch(0);
-              if (touch.position.x > (Screen.width / 2))
-              {
-                  GoRight();
-              }
-              if (touch.position.x < (Screen.width / 2))
-              {
-                  GoLeft();
-              }
-          }
 
+            if (Input.touchCount > 0)
+            {
+                Touch touch = Input.GetTouch(0);
+                if (touch.position.x > (Screen.width / 2))
+                {
+                    GoRight();
+                }
+                if (touch.position.x < (Screen.width / 2))
+                {
+                    GoLeft();
+                }
+            }
+       
       void GoRight()
         {
             transform.position = new Vector3(transform.position.x + 1.75f, transform.position.y, transform.position.z);
@@ -46,6 +47,7 @@ public class mainaero : MonoBehaviour
         }
 
 
+        
     }
 
 

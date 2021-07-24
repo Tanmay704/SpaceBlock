@@ -4,11 +4,19 @@ using UnityEngine;
 
 public class Collision : MonoBehaviour
 {
-    
+    public GameOverScreen GameOverScreen;
+    public void GameOver()
+    {
+        GameOverScreen.Setup(Score.i);
+    }
 
     void OnCollisionEnter()
     {
-        FindObjectOfType<GameManager>().EndGame();
+        Score.flag = 1;
+     
+        GameOver();
+        Destroy(gameObject);
+        //  FindObjectOfType<GameManager>().EndGame();
 
     }
 }
