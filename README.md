@@ -6,5 +6,6 @@ Technology used : Unity 3d, C#.
 
         This is simple game where a jet need to retain not to collide with obstacles. TEST.apk is game apk.
         
-         ![Screenshot (7)](https://user-images.githubusercontent.com/59217773/208290549-ebc1882f-97fe-4849-811e-eb84f401cdb0.png)
+        
 
+![Game Development environment](https://user-images.githubusercontent.com/59217773/208290912-c13b1870-9a08-4e83-84db-471b64732de5.png)
