@@ -2,8 +2,8 @@
 
 Description : This is Android Game Made with Unity.
 
-Technology used : ![alt text](https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png), ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/2560px-Unity_Technologies_logo.svg.png), 
-![alt text](https://e1.pngegg.com/pngimages/736/783/png-clipart-macos-app-icons-android-studio-thumbnail.png)
+Technology used : ![alt text](https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png)=250x, ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/2560px-Unity_Technologies_logo.svg.png) =250x, 
+![alt text](https://e1.pngegg.com/pngimages/736/783/png-clipart-macos-app-icons-android-studio-thumbnail.png) =250x
 
         This is a simple game in which a jet must maintain control in order to avoid colliding with obstacles. Test.apk is an apk game.
         
